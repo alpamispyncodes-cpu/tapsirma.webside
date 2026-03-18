@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<title>Google Style Text</title>
+
+<style>
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#ffffff;
+    font-size:80px;
+    font-family:Arial, sans-serif;
+}
+
+span{
+    animation:bounce 1s infinite;
+}
+
+span:nth-child(1){color:#4285F4;}
+span:nth-child(2){color:#DB4437; animation-delay:0.1s;}
+span:nth-child(3){color:#F4B400; animation-delay:0.2s;}
+span:nth-child(4){color:#4285F4; animation-delay:0.3s;}
+span:nth-child(5){color:#0F9D58; animation-delay:0.4s;}
+span:nth-child(6){color:#DB4437; animation-delay:0.5s;}
+
+@keyframes bounce{
+    0%,100%{transform:translateY(0);}
+    50%{transform:translateY(-20px);}
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>
+<span>G</span>
+<span>o</span>
+<span>o</span>
+<span>g</span>
+<span>l</span>
+<span>e</span>
+</h1>
+
+</body>
+</html>
